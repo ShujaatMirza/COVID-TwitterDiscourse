@@ -1,0 +1,16 @@
+\section*{Evaluation Approach}\label{sec:approach}
+
+Before training the model, we will use preprocessing to simplify our dataset and take out extra
+features that may add noise. In addition to common techniques such as removing punctuation,
+numbers, and stopwords, we will also need to do some preprocessing specific to our tweet data.
+This includes removing URLs, usernames, and media, as well as perhaps mapping emojis to a
+word representing the conveyed emotion. We would start out with a baseline model using a
+\texttt{bag-of-words} model, and then extend it to produce better results, using \texttt{n-grams, TF-IDF
+weighting, and naive bayes} model. We can also extend this to \texttt{logistic regression} and \texttt{random
+forest} models. Apart from doing sentiment analysis, we also plan to do topic modelling, to see if
+a particular party focuses more or less on a specific aspect of the coronavirus impact. This would
+be an unsupervised task, which we would perform using the \texttt{latent dirichlet allocation (LDA)}
+algorithm. The metrics we use to evaluate our models will be decided based on the properties of
+our dataset, such as class imbalance, as well as the algorithm used, but we will consider metrics
+such as accuracy, \texttt{auROC} and average precision for our classification models and coherence
+score for our \texttt{LDA} model.

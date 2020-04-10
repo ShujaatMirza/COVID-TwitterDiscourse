@@ -1,0 +1,15 @@
+\section*{Proposed Approach}
+
+
+This is a supervised learning classification task, where each instance represents the tweet
+by a particular governor and the label is either \texttt{‘Republican’} or \texttt{‘Democrat’}. 
+We will start by making a database of tweets published by governors from all 50 states. 
+Tweets relating to coronavirus will be determined by searching for keywords and hashtags pertaining to the virus, such as
+\texttt{‘coronavirus’, ‘COVID-19’, ‘pandemic’, ‘lockdown’,} etc. We will consider tweets within a fixed
+time range, starting from the date of the first reported U.S. case. We will use a combination of
+the \texttt{COVID-19} tweets datasets~\cite{781w-ef42-20, kaggle} as well as tweets that we scrape using the \texttt{Twitter API}~\cite{api}.
+We will also need to assign party labels by scraping the name, state, and party from Wikipedia.
+To allow comparison between multiple models and hyperparamters, we will split the database into training, validation and test sets with the following ratios: \texttt{70\% train, 15\% validation, 15\% test}. We will then use the best performing model to classify the tweets obtained from a separate database constituting the tweets from major US news outlets. 
+
+
+

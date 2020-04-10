@@ -1,0 +1,63 @@
+\documentclass[USenglish,oneside,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[big]{dgruyter_NEW}
+\usepackage{xspace}
+\usepackage{xcolor}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{paralist}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{adjustbox}
+\usepackage{array}
+\hyphenation{op-tical net-works semi-conduc-tor}
+\tikzset{mycircled/.style={circle,draw,inner sep=0.1em,line width=0.09em}}
+\newcommand\encircle[1]{%
+  \tikz[baseline=(X.base)] 
+    \node (X) [draw, shape=circle, inner sep=0, line width=0.8pt,font=\sf,] {\strut #1};}
+\newcommand{\ie}{i.\@\,e.\@\xspace}
+\newcommand{\eg}{e.\@\,g.\@\xspace}
+\newcommand{\wrt}{w.\@\,r.\@\,t.\@\xspace}
+\newcommand{\etc}{etc.\@\xspace}
+\newcommand{\etal}{et~al.\@\xspace}
+
+
+\begin{document}
+  \author[1]{Lakshmi S. Menon}
+  \author[2]{Parthvi Sanjay Shah}
+  \author[3]{Anusha R. Patil}
+  \author[4]{Muhammad Shujaat Mirza}
+  
+  \affil[1]{lsm454; Responsible for submissions}
+  \affil[2]{pss434@nyu.edu}
+  \affil[3]{arp624@nyu.edu}
+  \affil[4]{msm622@nyu.edu}
+  
+\title{COVID19: War of Twitter Narratives}
+\runningtitle{COVID19: War of Twitter Narratives}
+%\title{\huge SoK: Managing Availability and Longitudinal Privacy of Publicly Shared Personal Online Data}
+
+ 
+%\begin{abstract}
+%{
+%Over the past months
+%\end{abstract}
+%\keywords{longitudinal privacy management, online exposure, personal data}
+
+
+\maketitle
+
+\input{ml-project-proposal/tex/motivation}
+\input{ml-project-proposal/tex/approach}
+\input{ml-project-proposal/tex/evaluation}
+
+\bibliographystyle{IEEEtranS}
+\bibliography{IEEEabrv,literature}
+
+\input{ml-project-proposal/tex/progress}
+\end{document}
+
+
