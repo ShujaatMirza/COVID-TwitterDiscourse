@@ -1,25 +1,25 @@
-state_name,party,name,twitter_handle
-California,democrat,Gavin Newsom,GavinNewsom
-Colorado,democrat,Jared Polis,jaredpolis
-Connecticut,democrat,Edward Lamont,GovNedLamont
-Delaware,democrat,John Carney,johncarneyde
-Hawaii,democrat,David Ige,GovHawaii
-Illinois,democrat,J.B. Pritzker,jbpritzker
-Kansas,democrat,Laura Kelly,GovLauraKelly
-Kentucky,democrat,Andy Beshear,AndyBeshearKY
-Louisiana,democrat,John Edwards,louisianagov
-Michigan,democrat,Gretchen Whitmer,gretchenwhitmer
-Minnesota,democrat,Tim Walz,GovTimWalz
-Montana,democrat,Stephen Bullock,GovernorBullock
-Nevada,democrat,Steve Sisolak,stevesisolak
-New Jersey,democrat,Philip Murphy,philmurphynj
-New Mexico,democrat,Michelle Lujan Grisham,michelle4nm
-New York,democrat,Andrew Cuomo,nygovcuomo
-North Carolina,democrat,Roy Cooper,NC_Governor
-Oregon,democrat,Katherine Brown,OregonGovBrown
-Pennsylvania,democrat,Thomas Wolf,governortomwolf
-Rhode Island,democrat,Gina Raimondo,ginaraimondo
-Virginia,democrat,Ralph Northam,ralphnortham
-Washington,democrat,Jay Inslee,jayinslee
-West Virginia,democrat,James Justice,WVGovernor
-Wisconsin,democrat,Tony Evers,tony4wi
+state_name,party,name,official_twitter,personal_twitter
+California,democrat,Gavin Newsom,Cagovernor,GavinNewsom
+Colorado,democrat,Jared Polis,GovofCO,jaredpolis
+Connecticut,democrat,Edward Lamont,GovNedLamont,NedLamont
+Delaware,democrat,John Carney,delaware_gov,johncarneyde
+Hawaii,democrat,David Ige,GovHawaii,
+Illinois,democrat,J.B. Pritzker,GovPritzker,jbpritzker
+Kansas,democrat,Laura Kelly,GovLauraKelly,LauraKellyKS
+Kentucky,democrat,Andy Beshear,GovAndyBeshear,AndyBeshearKY
+Louisiana,democrat,John Edwards,louisianagov,JohnBelforLA
+Maine,democrat,Janet Mills,GovJanetMills,
+Michigan,democrat,Gretchen Whitmer,GovWhitmer,gretchenwhitmer
+Minnesota,democrat,Tim Walz,GovTimWalz,Tim_Walz
+Montana,democrat,Stephen Bullock,GovernorBullock,montanagovernor
+Nevada,democrat,Steve Sisolak,GovSisolak,stevesisolak
+New Jersey,democrat,Philip Murphy,GovMurphy,philmurphynj
+New Mexico,democrat,Michelle Lujan Grisham,GovMLG,michelle4nm
+New York,democrat,Andrew Cuomo,nygovcuomo,andrewcuomo
+North Carolina,democrat,Roy Cooper,NC_Governor,RoyCooperNC
+Oregon,democrat,Katherine Brown,OregonGovBrown,KateBrownForOR
+Pennsylvania,democrat,Thomas Wolf,GovernorsOffice,governortomwolf
+Rhode Island,democrat,Gina Raimondo,GovRaimondo,ginaraimondo
+Virginia,democrat,Ralph Northam,GovernorVA,ralphnortham
+Washington,democrat,Jay Inslee,GovInslee,jayinslee
+Wisconsin,democrat,Tony Evers,GovEvers,Tony4WI
